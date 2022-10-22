@@ -1,0 +1,42 @@
+.background{
+   background: url(background.jpg);
+}
+h1{
+   text-align: center;
+   font-size: 50px;
+}
+.jump{
+   font-size: 20px;
+   color: blue;
+}
+.first__lorem{
+   text-transform: capitalize;
+   font-size: 30px;
+   line-height: 1.5;
+   text-indent: 50px;
+}
+.lorem__two{
+   text-transform: lowercase;
+   font-size: 30px ;
+   line-height: 1;
+   color: red;
+   font-style: italic;
+   text-align: right;
+}
+.table1{
+   border: 3px solid blue;
+   text-align: center;
+   width: 100%;
+}
+.first__string__table1{
+   line-height: 1.5;
+   font-weight: bold;
+   font-size: 30px;
+}
+.two__string__table1{
+   font-style: italic;
+   font-size: 30px;
+}
+.tree__string__table1{
+   width: 20%;
+}
