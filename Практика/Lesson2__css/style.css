@@ -2,8 +2,10 @@
    background: url(background.jpg);
 }
 h1{
+   background: chocolate;
    text-align: center;
    font-size: 50px;
+   text-transform: uppercase;
 }
 .jump{
    font-size: 20px;
@@ -39,4 +41,42 @@ h1{
 }
 .tree__string__table1{
    width: 20%;
+}
+.table2{
+   table-layout: fixed;
+   border: 3px solid none;
+   text-align: center;
+   width: 100%;
+}
+.first__string__table2{
+   font-size: 300%;
+   text-decoration: underline;
+}
+.str1{
+   color: brown;
+   font-size: 20px;
+}
+.str2{
+   color: red;
+}
+.str3{
+   color: green;
+   font-size: 70%;
+}
+.str4{
+   color: orange;
+   font-style: italic;;
+}
+caption{
+   text-align: center;
+   font-size: 50px;
+   text-decoration: underline;
+   padding: 50px;
+
+}
+.table3{
+   table-layout: fixed;
+   border: 3px dotted green;
+   text-align: center;
+   width: 100%;
 }
