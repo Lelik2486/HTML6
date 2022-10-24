@@ -14,13 +14,13 @@
    </a>
 
    <table class="table2">
-      <tr class="first__string__table2">
-         <td>
+      <tr>
+         <th>
             Первый список
-         </td>
-         <td>
+         </th>
+         <th>
             Второй список
-         </td>
+         </th>
       </tr>
       <tr class="two__string__table2">
          <td> 
@@ -58,8 +58,44 @@
          </td>
       </tr>
    </table>
-   <table class="table3">
+   <table class="table3" >
       <caption> Создание таблицы спедствами CSS </caption>
+      <colgroup>
+      <col style="background-color:yellow">
+      </colgroup>
+      <tr class="table3__str1">
+         <th>№</th>
+         <th>Имя</th>
+         <th>Фамилия</th>
+         <th>E-mail</th>
+         <th>Примечание</th>
+      </tr >
+      <tr class="tr2">
+         <td>1</td>
+         <td>Александр</td>
+         <td>Петров</td>
+         <td rowspan="2"> alexangel@mail.ru </td>
+         <td rowspan="3"></td>
+      </tr>
+      <tr class="tr2">
+         <td>2</td>
+         <td>Ангелина</td>
+         <td>Петрова</td>
+         
+         
+      </tr>
+      <tr class="tr2">
+         <td>3</td>
+         <td colspan="2">Иванов Иван</td>
+         
+         <td> iivan13@mail.ru </td>
+         
+      </tr>
+      <tr>
+         <td colspan="5" class="all">Всего 3</tdcolspan></td>
+         
+      </tr>
+
    </table>
 
    

@@ -48,13 +48,16 @@ h1{
    text-align: center;
    width: 100%;
 }
-.first__string__table2{
+.table2 th{
    font-size: 300%;
    text-decoration: underline;
 }
 .str1{
+    
+   text-decoration: none;
    color: brown;
    font-size: 20px;
+   
 }
 .str2{
    color: red;
@@ -75,8 +78,28 @@ caption{
 
 }
 .table3{
+   margin: auto ;
    table-layout: fixed;
-   border: 3px dotted green;
-   text-align: center;
-   width: 100%;
+   border: 3px dotted red;
+   text-align: left;
+   width: 80%;
+   border-collapse: collapse;
+   font-size: 20px;
+   line-height: 2;
+   
+}
+.table3 tr td{
+   border: 1px dashed green;
+
+}
+.table3__str1{
+   background-color: black;
+   color: white;
+}
+.all{
+   background-color: darkkhaki;
+   color: red;
+   padding-left: 10%;
+   padding-top: 1.5pc;
+padding-bottom: 1.5pc;
 }
