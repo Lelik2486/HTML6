@@ -1,25 +1,29 @@
 .background{
    background: url(background.jpg);
 }
+body{
+   font-size: 8px;
+   font-family: 'Times New Roman';
+}
 h1{
    background: chocolate;
    text-align: center;
-   font-size: 50px;
+   font-size: 16px;
    text-transform: uppercase;
+   font-family: Tahoma;
 }
 .jump{
-   font-size: 20px;
    color: blue;
 }
 .first__lorem{
    text-transform: capitalize;
-   font-size: 30px;
+   font-size: 10px;
    line-height: 1.5;
-   text-indent: 50px;
+   text-indent: 30px;
 }
 .lorem__two{
    text-transform: lowercase;
-   font-size: 30px ;
+   
    line-height: 1;
    color: red;
    font-style: italic;
@@ -33,11 +37,9 @@ h1{
 .first__string__table1{
    line-height: 1.5;
    font-weight: bold;
-   font-size: 30px;
 }
 .two__string__table1{
    font-style: italic;
-   font-size: 30px;
 }
 .tree__string__table1{
    width: 20%;
@@ -49,14 +51,16 @@ h1{
    width: 100%;
 }
 .table2 th{
-   font-size: 300%;
    text-decoration: underline;
+}
+.list{
+   list-style: none;
+   list-style-type: circle;
 }
 .str1{
     
    text-decoration: none;
    color: brown;
-   font-size: 20px;
    
 }
 .str2{
@@ -70,13 +74,6 @@ h1{
    color: orange;
    font-style: italic;;
 }
-caption{
-   text-align: center;
-   font-size: 50px;
-   text-decoration: underline;
-   padding: 50px;
-
-}
 .table3{
    margin: auto ;
    table-layout: fixed;
@@ -84,8 +81,16 @@ caption{
    text-align: left;
    width: 80%;
    border-collapse: collapse;
-   font-size: 20px;
    line-height: 2;
+}
+.table3 caption{
+      text-align: center;
+      text-decoration: underline;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 12px;
+      
+      
    
 }
 .table3 tr td{
