@@ -7,12 +7,14 @@
     margin-right: auto;
     
 }
+.header{
+    text-decoration: overline;
+}
 .h1{
     text-transform: uppercase;
     margin-top: 25px;
     margin-bottom: 50px;
     text-align: center;
-    text-decoration: overline;
     text-decoration: underline green;
 }
 .text{
@@ -66,9 +68,12 @@
 }
 .bot__block{
     background-color: black;
-
+    margin-top: 50px;
 }
 .h2{
     color: rgb(245, 245, 248);
     text-align: center
+}
+.bottom__text{
+    color: orange;
 }
