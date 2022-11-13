@@ -26,7 +26,11 @@ body{
    font-size: 24px;
 }
 .nav{
-   background: rgb(160, 157, 152);
+   background: -webkit-linear-gradient(top, white,gray);
+}
+.background__gradient{
+   height: 30px;
+   background: -webkit-linear-gradient(top, gray, white);
 }
 .nav__flex{
    width: 70%; 
