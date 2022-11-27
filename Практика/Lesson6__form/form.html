@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style__form.css">
+</head>
+<body>
+        <div class="container">
+            <div class="header">
+                <h1 class="header__title">IT-лаборатория</h1>
+                <p class="subtitle">по направлениям</p>
+                <p class="header__text">Интернет-технологии(HTML CSS JS)</p>
+            </div>
+
+            <div class="main">
+                <h2 class="main__title">Регистрация</h2>
+                <form action="/" method="POST">
+
+                    <div>
+                        <label>
+                            Дата регистрации
+                            <input class="form__input" type="date">
+                        </label>
+                    </div>
+
+                    <fieldset class="form__element">
+                    <legend>Контактная информация</legend>
+                        <ul>
+                            <li>
+                                <label>ФИО <input class="form__input" type="text" placeholder="Ваше полное имя" name="name"></label>
+                            </li>
+
+                            <li>
+                                <input class="form__input" type="email" placeholder="Ваш e-mail" name="email">
+                            </li>
+
+                            <li>
+                                <input class="form__input" type="tel" placeholder="Ваш номер телефона" name="tel">
+                            </li>
+                        </ul>
+                    </fieldset>
+                    
+                    <fieldset class="form__element">
+                        <dl>
+                            <dt>Возраст:</dt>
+                                <label>
+                                    <dd class="form__input">
+                                        <input type="radio" name="age">
+                                        До 18 лет
+                                    </dd>
+                                </label>     
+
+                                <label>
+                                    <dd class="form__input">
+                                        <input type="radio" name="age">
+                                        От 18 до 24
+                                    </dd>
+                                </label>
+
+                                <label>
+                                    <dd class="form__input">
+                                        <input type="radio" name="age">
+                                        От 24 до 30
+                                    </dd>
+                                </label>
+
+                                <label>
+                                    <dd class="form__input">
+                                        <input type="radio" name="age">
+                                        От 30
+                                    </dd>
+                                </label>
+                        </dl>
+                    </fieldset>
+
+                    <fieldset class="form__element">
+                        <legend>Пароль</legend>
+                        <div><input class="form__input" type="password" placeholder="Ваш пароль">
+                        </div>
+
+                        <div><input class="form__input" type="password"
+                        placeholder="Повторите пароль">
+                        </div>
+                    </fieldset>
+
+                    <div class="form__element" >
+                    <select class="form__input" name="" id="">
+                        <option value="">Выберите город</option>
+                        <option value="">Гомель</option>
+                        <option value="">Гродно</option>
+                        <option value="">Брест</option>
+                        <option value="">Витебск</option>
+                        <option value="">Минск</option>
+                        <option value="">Могилев</option>
+                        </select>
+                    </div>
+
+                    <label>
+                        <div class="form__input" >
+                            <input type="checkbox"> Принимаю условия
+                        </div>
+                    </label>
+
+                    <div class="form__element">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="О себе"></textarea>
+                    </div>
+
+                    <div class="form__element">
+                        <label class="form__input"><input type="radio" name="sex">
+                             Муж
+                        </label>
+                        <label class="form__input"><input type="radio" name="sex">
+                             Жен
+                        </label>
+                    </div>
+
+                    <div class="form__element">
+                        <label>
+                            Фото
+                        </label>
+                        <input type="file" class="form__file">
+                    </div> 
+
+                    <div class="form__element">
+                        <button type="submit">ОТПРАВИТЬ</button>
+                        <button type="reset">ОЧИСТИТЬ</button>
+                        <button type="file">КАТАЛОГ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+</html>

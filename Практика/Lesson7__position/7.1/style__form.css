@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ body{
+    background: url(bg3.png);
+ }
+ .top__link{
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100vh;
+   width: 10%;
+ }
+ .top{
+   position: absolute;
+   width: 50px;
+   left: 5%;
+   top: 50%;
+   opacity: 50%;
+   transition: all 0.6s linear;
+   border-radius: 50%;
+ }
+ .header__link{
+   width: 500px;
+   position: fixed;
+   left: 50%;
+   bottom: 20%;
+   margin-left: -250px;
+   display: none;
+   opacity: 70%;
+ }
+ .top__link:hover .top{
+   opacity: 100%;
+   box-shadow: 20px 20px 50px red;
+ }
+ .top__link:hover .header__link{
+   display: block;
+   box-shadow: 0px 0px 50px inset white;
+ }
+ .container{
+    width: 500px;
+    margin: 0 auto;
+    background: white;
+ }
+ .header{
+    margin-top: 30px;
+    background: black;
+    text-align: center;
+    padding: 20px 10px;
+    color: white;
+ }
+ .header__title{
+    
+ }
+ .subtitle{
+    color: #8A9EF4;
+    font-style: italic;
+    font-size: 24px;
+    padding: 15px 0 10px;
+ }
+ .header__text{
+
+ }
+ .main{
+     padding: 0 10px;
+ }
+ .main__title{
+     color: red;
+     text-align: center;
+     padding: 15px;
+ }
+ .form__element{
+   margin-bottom: 20px;
+}
+ .form__input{
+     width: 100%;
+     padding: 5px;
+     margin-bottom: 15px;
+ }
+ .form__input:hover{
+background-color: orange;
+ }
+ .form__input:focus{
+   outline: 3px solid red;
+ }
+
+ ul{
+   padding-inline-start: 0;
+}
+li{
+   list-style-type: none;
+}
+
+ dt{
+    margin-bottom: 10px;
+ }
+ 
+ textarea{
+     width: 100%;
+     height: 200px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 10px;
+ }
+ textarea:focus{
+   outline: 3px solid red;
+ }
+ .form__file{
+   display: block;
+ }
+ .form__file:hover{
+  outline: 3px solid orange;
+ }
+ 
+
+ button{
+    padding: 11px 6px;
+ }
+ 
+ 
+ button:hover{
+    background: green;
+    color: red;
+ }
+ 

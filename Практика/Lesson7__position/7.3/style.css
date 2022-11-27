@@ -1,0 +1,215 @@
+*{
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   background: url(bg3.png);
+}
+.container{
+   width: 1000px;
+   margin: auto;
+   background: white;
+}
+.header{
+   margin-top: 30px;
+   background: black;
+   text-align: center;
+   padding: 20px 0;
+}
+.header__title{
+   padding-bottom: 30px;
+   color: white;
+}
+.subtitle{
+   color: #8A9EF4;
+   font-style: italic;
+   font-size: 24px;
+}
+.nav{
+   background: -webkit-linear-gradient(top, white,gray);
+}
+.background__gradient{
+   height: 30px;
+   background: -webkit-linear-gradient(top, gray, white);
+}
+.nav__flex{
+   width: 70%; 
+   margin: auto;
+}
+.nav__flex1{
+   display: flex;
+   justify-content: space-between;
+}
+.nav__flex2{
+   display: flex;
+   justify-content: space-around;
+   padding: 10px 0;
+}
+.nav__link{
+   padding: 10px;
+   text-decoration: none;
+   color: black;
+}
+.nav__link:hover{
+   background: orange;
+   color: white;
+}
+.nav№{
+   color: red;
+}
+.nav__a4{
+   position: relative;
+}
+.a4{
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   background-color: red;
+}
+.nav__link__a4{
+   text-decoration: none;
+   width: 100%;
+   margin: 0 auto;
+   padding: 10px;
+
+}
+.nav__link__a4:hover{
+   background: green;
+   color: white;
+}
+.nav__a4:hover .a4{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+.main{
+   display: flex;
+   justify-content: space-between;
+   line-height: 1.5;
+}
+.aside{
+   width: 30%;
+   background: url(intro.jpg);
+   color: white;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+}
+.content{
+   width: 69%;
+}
+.content__title{
+   text-align: center;
+   color: red;
+   margin: 20px;
+}
+.lesson{
+   color: white;
+   text-indent: 15px;
+}
+.lesson1{
+   border-radius: 20px;
+   background: #4d3788;
+   padding: 20px 50px;
+}
+.lesson1__flex{
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 2px solid gray;
+}
+.title{
+   color: greenyellow;
+}
+.img{
+   height: 24px;
+}
+.white__text{
+   color: white;
+}
+.red__text{
+   color: red;
+}
+.mark{
+   color: orange;
+}
+.text{
+   padding-top: 20px;
+}
+.more{
+   text-decoration: none;
+   color: orange;
+   padding: 20px 0;
+}
+.more:hover{
+   background: orange;
+   color: white;
+}
+.lesson2{
+   border-radius: 20px;
+   background: #1c0248;
+   padding: 20px 50px;
+   display: flex;
+   justify-content: flex-end;
+   margin: 10px 0;
+}
+.lesson2__flex{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 2px solid gray;
+}
+.lesson3{
+   border-radius: 20px;
+   background: #4c4c4c;
+   padding: 20px 50px;
+   display: flex;
+   justify-content: center;
+}
+.lesson3__flex{
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 2px solid gray;
+}
+.flex{
+   display: flex;
+   justify-content: center;
+   margin: 15px;
+}
+.registracion{
+   
+   text-decoration: none;
+   color: red;
+   padding: 15px 6px;
+   display: inline-block;
+   outline: 2px solid orange;
+   
+
+}
+.registracion:hover{
+   outline: 6px solid orange;
+}
+.footer{
+   background: black;
+   color: white;
+   display: flex; 
+   justify-content: space-around;
+   align-items: center;
+   padding: 30px;
+}
+.footer__logo{
+   height: 50px;
+}
+.tel{
+   color: white;
+}
+.mail{
+   color: lightblue;
+}
