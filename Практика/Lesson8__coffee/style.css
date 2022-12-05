@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSans-Regular';
+}
+@font-face{
+    font-family: 'Kurale';
+    src: url(fonts/Kurale/Kurale-Regular.ttf)
+    format('truetype');
+}
+@font-face{
+    font-family: OpenSans;
+    src: url(fonts/Kurale/OpenSans-Regular.ttf)
+    format('truetype');
+    font-size: normal;
+}
+h1,h2,h3{
+    font-family: 'Kurale', serif;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    
+
+}
+
+.main{
+    background-image: url(img/s1.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+
+}
+.nav{
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav__link{
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 20px 0;
+    transition: all 0.5s linear; 
+}
+.nav__link:last-child{
+    margin: 0;
+}
+.nav__link:hover{
+    color: tan;
+}
+.header{
+    margin-top: -64px;  
+display: flex;
+justify-content: flex-end;
+align-items: center;
+height: 100%;
+}
+.header__item{
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.header__title{
+    font-size: 72px;
+
+}
+.btn{
+    margin-top: 20px;
+    display: inline-block;
+    color: white; 
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 0.5s linear;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: tan;
+
+}
+.cofe{
+    padding: 40px;
+
+}
+.info{
+    text-align: center;
+}
+.info__title{
+    font-size: 37px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.info__subtitle{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 30px;
+}
+.cafe__item{
+    text-align: center;
+    
+}
+.blog{
+    background-image: url(img/s3.jpg);
+}
+.blog__img{
+    width: 100%;
+    
+}
+.more{
+    display: inline-block;
+    color: black;
+    text-transform: uppercase;
+    margin: 20px 0;
+
+}
+.blog__item{
+    text-align: left;
+}
