@@ -131,4 +131,41 @@ height: 100%;
 }
 .blog__item{
     text-align: left;
+    
 }
+.shop__item{
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.shop__img{
+    width: 100%;
+    
+}
+.shop__overlay {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.39);
+    
+    
+    
+}
+.shop__link {
+    opacity: 0;
+background: tan;
+color: white;
+padding: 10px;
+border-radius: 5px;
+margin: 0;
+transition: 0.5s linear;
+}
+.shop__overlay:hover .shop__link {
+    opacity: 1;
+}
+.cafe__title{
+    width: 100%;
+}
+.brands__img{
+    width: 100%;
+} 

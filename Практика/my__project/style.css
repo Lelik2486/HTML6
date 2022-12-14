@@ -1,0 +1,49 @@
+*{
+
+
+}
+body{
+  
+}
+section{
+  margin-left: 200px;
+  margin-bottom: 200px;
+}
+h1,h2,h3{
+  text-transform: uppercase;
+  text-align: center;
+}
+p{
+  margin: 0;
+  padding: 0;
+  
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: yellowgreen;
+}
+.header{
+  display: flex;
+}
+.nav{
+  background-color: aqua;
+  width: 200px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  position: fixed;
+  top: 200px;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+.frontend{
+  color: rgb(255, 60, 0);
+ 
+
+}
+
