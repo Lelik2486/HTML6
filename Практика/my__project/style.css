@@ -1,49 +1,212 @@
-*{
+*{margin: 0;
 
 
 }
+@font-face{
+  font-family: 'Kurale';
+  src: url(fonts/Kurale/Kurale-Regular.ttf)
+  format('truetype');
+}
 body{
+  background-image: url(img/bcg.jpg);
+  background-position-x: -3000px;
+  background-size: cover;
   
 }
 section{
-  margin-left: 200px;
-  margin-bottom: 200px;
+  margin-bottom:40px;
+}
+.sections{
+  position: relative;
+  left: 400px;
+  width: 1200px;
+  
+}
+header{
+  position: absolute;
+  width: 100%;
+
 }
 h1,h2,h3{
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Kurale';
+  color: rgb(10, 21, 83);
+  font-size: 32px;
+  margin: 30px;
+  
+
 }
-p{
-  margin: 0;
-  padding: 0;
+h1{
+  animation-name:bounce1;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  font-size: 50px;
+
+  
+} 
+ 
+ a{
+  text-decoration: none;
+  color:orange;
   
 }
-a{
-  text-decoration: none;
-  text-transform: uppercase;
-  color: yellowgreen;
+p{
+  padding: 30px;
+  line-height: 50px;
+  font-size: 30px;
 }
-.header{
-  display: flex;
-}
+
 .nav{
-  background-color: aqua;
-  width: 200px;
+  background-image: url(img/side__bar.jpg);
+  background-position: -1400px -400px;
+  height: 100vh;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   gap: 20px;
   position: fixed;
-  top: 200px;
+  top: 0;
+  animation-name:   fadeInLeftBig;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
 }
-.container{
-  width: 1000px;
-  margin: 0 auto;
+
+.nav a{
+  display: inline-block;
+  font-size: 30px;
+  background-color: black;
+  text-transform: uppercase;
+  color:rgb(118, 161, 147);
 }
-.frontend{
-  color: rgb(255, 60, 0);
- 
+.nav a:hover{
+  animation-name: bounceOut;
+  animation-duration: 1s s;
+  background-color: tan;
+  color: rgb(35, 24, 73);
+}
+
+.header__content{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.header__img{
+width: 60%;
+  border-radius: 20px;
+  background-image: url(img/header.jpg);
+  background-size: cover;
+  animation-name:fadeInRightBig;
+  animation-duration: 1s;
+}
+.header__text{
+  
+  background-color: rgba(100, 148, 237, 0.603);
+  border-radius: 20px;
+  animation-name:fadeInLeftBig;
+  animation-duration: 1s;
+  width: 40%;  
+}
+.start__img{
+  width: 30%;
+  border-radius: 20px;
+  background-image: url(img/question.jpg);
+  background-size: cover;
+  background-position-x: -400px;
+  animation-name:fadeInRightBig;
+  animation-duration: 1s;
+  opacity: 50%;
+}
+.start__text{
+  background-color: rgba(52, 121, 46, 0.603);
+  border-radius: 20px;
+  animation-name:fadeInLeftBig;
+  animation-duration: 1s;
+  width: 70%;  
+}
+.frontend__img{
+  width: 50%;
+  border-radius: 20px;
+  background-image: url(img/frontend.png);
+  background-position-x: -100px;
+  background-size: cover;
+  animation-name:fadeInUpBig;
+  animation-duration: 1s;
+  opacity: 70%;
+}
+.frontend__text{
+  background-color: rgba(4, 58, 90, 0.603);
+  border-radius: 20px;
+  animation-name:fadeInDownBig;
+  animation-duration: 1s;
+  width: 50%;  
+}
+span{
+  color: white;
+}
+.backend__text{
+  background-color: rgba(170, 172, 54, 0.603);
+  border-radius: 20px;
+  animation-name:fadeInDownBig;
+  animation-duration: 1s;
+  width: 100%;
+}
+.english__text{
+  background-color: rgba(112, 50, 136, 0.603);
+  border-radius: 20px;
+  animation-name:fadeInDownBig;
+  animation-duration: 1s;
+  width: 100%;
 
 }
+/*
+@keyframes section__anime {
+  0% {
+    -webkit-transform: translateX(-2000px) scale(0.7);
+    transform: translateX(-2000px) scale(0.7);
+    opacity: 0.7;
+   
+  }
+
+  80% {
+    -webkit-transform: translateX(0px) scale(0.7);
+    transform: translateX(0px) scale(0.7);
+    opacity: 0.7;
+    width: 0;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    width: 40%;
+   
+  }
+}
+
+.frontend{
+  color: rgb(255, 60, 0);
+}*/
+@keyframes bounce1{
+  0%{
+transform: translateY(-400px);
+  }
+  85%{
+      transform: translateY(0px);
+  }
+  92%{
+      transform: translateY(-30px);   
+  }
+  100%{
+      transform: translateY(0px);
+
+  }
+
+}
+
 
