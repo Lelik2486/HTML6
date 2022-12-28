@@ -25,6 +25,10 @@ a{
 }
 .header{
   display: flex;
+  background-image: url(img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: orange;
 }
 .nav{
   background-color: aqua;
