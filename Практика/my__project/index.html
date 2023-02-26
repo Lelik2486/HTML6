@@ -4,90 +4,183 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>IT-MOGILEV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animate.css">
 </head>
 <body>
-
-  <div class="nav">
-    <a href="#">главная</a>
-    <a href="#start">с чего начать?</a>
-    <a href="#frontend">frontend</a>
-    <a href="#backend">backend</a>
-    <a href="#english">English</a>
-    <a href="#it">It-школы</a>
-    <a href="#">youtube</a>
-    <a href="#">Самоподготовка</a>
-    <a href="#">о разработчике</a>
-  </div>
-
-  <div class="sections">
-
-  <section class="header">
-      <h1>атлас начинающего it-шника</h1>
-      <div class="header__content">
-        <p class="header__text">Данный сайт не призван решить все ваши проблемы, в том числе и финансовые, но поможет сэкономить время. Ни для кого не секрет что профессия програмист сейчас очень востребована, высоко оплачиваема и достаточно интересна, а также овладеть ей может каждый. Не удивительно, что сейчас появилось множество школ и тренингов, которые обесчают вам светлое будущее. Данный сайт содержит сводную информацию о лучших из них и о вариантах самоподготовки. В каждой из секций вам будут предложены материалы для самоподготовки. Отдельно вынесены школы и курсы где вам окажут платную квалифицированную помощь. </p>
-        <div class="header__img"></div>
+    <!-- Навбар -->
+    <div class="nav">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav__link" aria-current="page" href="#">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__link" href="#start">с чего начать?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__link" href="#frontend">frontend vs backend</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__link" href="#english">English</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__link" href="#it">It-школы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__link" href="#youtube">youtube</a>
+            </li>             
+           </ul>
+        </div>
       </div>
+    </nav>
+    </div>
+  <!-- Конец навбар-->
+  <div class="container">
+    
+  <section class="header">
+        <h1 class="header__text">атлас начинающего it-шника</h1>
+        <div class="header__img"></div>
   </section>
 
   <section class="start" id="start">
       <h2>с чего начать?</h2>
-      <div class="header__content">
-        <div class="start__img"></div>
-        <div class="start__text">
+      <div class="start__content">
+        <div class="section__text start__text">
           <p>Этим вопросом задается каждый человек, решивший освойть новый навык в любой области. Безусловно это выбор направления. Кому-то прийдется по душе разработка приложений для смартфона или PC, кто-то уверен в перспективности разработки нейросетей, но реальность такова, что начинать проще с web-разработки (разработка сайтов). И тут у нас 2 основных пути: frontend и backend. на них и остановимся подробнее. А так же вы неизбежно столкнетесь с необходимостью учить английский, независимо от того насколько хорошо вы его уже знаете.</p>
           <h3>who is who?</h3>
           <p>Говоря простыми словами frontend представляет собой браузерную часть, словом все то что видит во вкладке браузера обычный пользователь (понятный пользовательский интерфейс). Что же тогда есть backend? А это уже ответная часть сервера. Т.е. набор приложений которые удаленно собирают, обрабатывают, хранят и, при необходимости,  возвращают пользователю.
-          <a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4" target="_blank"> Подробнее... </a> можно ознакомиться на страничке Wikipedia</p>
+          <a class="section__link" href="https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4" target="_blank"> Подробнее... </a> можно ознакомиться на страничке Wikipedia</p>
         </div>
       </div>
   </section>
 
-  <section class="frontend" id="frontend">
-      <h2>frontend</h2>
-      <div class="header__content">
-        <div class="frontend__img"></div>
-        <div class="frontend__text">
+  <section class="frontend " id="frontend">
+      <h2 class="frontend__header"><img class="icon" src="img/html5.png" alt=""> frontend vs backend <img class="icon" src="img/java.png" alt=""></h2>
+      <div class="frontend__content">
+        <div class="section__text frontend__text">
           <p>Frontend-разработчик в первую очередь должен овладеть "версткой". Она представляет собой написание сайта с использованием html и css. С наличием данного навыка можно составлять простые сайты (чаще всего рекламные). Однако, чтобы стать востребованным специалистом, необходимо изучить язык программирования JavaScript, что существенно расширит ваши возможности. Но и это еще не все. для успешного трудоустройства вам понадобятся еще и более глубокие познания какого то актуального фреймворка. Данная страница является примером начального уровня <span>frontend</span>-разработки.</p>
         </div>
-      </div>
-  </section>
-
-  <section class="backend" id="backend">
-      <h2>backend</h2>
-      <div class="backend__text">
-        <p>Как правило backend создается при помощи кроссплатформенного языка Java. Хотя возможны и другие варианты. И нет... Это не тоже самое что и JavaScript. А значит на него и будем ориентироваться. <a href="https://ru.wikipedia.org/wiki/Java" target="_blank"> Подробнее... </a> о Java</p>
+        <div class="section__text backend__text">
+          <p>Как правило backend создается при помощи кроссплатформенного языка Java. Хотя возможны и другие варианты. И нет... Это не тоже самое что и JavaScript. А значит на него и будем ориентироваться. <a  class="section__link" href="https://ru.wikipedia.org/wiki/Java" target="_blank"> Подробнее... </a> о Java</p>
+        </div>
       </div>
   </section>
 
   <section class="english" id="english">
       <h2>english</h2>
-      <div class="english__text">
+      <div class="section__text english__text">
         <p>Хотите вы того или нет, но вам прийдется мириться с необходимостью знания английского на достаточно высоком уровне. Это поможет и код писать и станет необходимым при общении с потенциальным заказчиком. Вы сэкономите кучу времени если запишитесь на курсы.</p>
+        <p>Перейдите по <a class="section__link" href="https://languagecoursefinder.com/mogilev/english/schools">ссылке...</a> и сможете выбрать достойные курсы исходя из рейтинка и удобного места расположения</p>
       </div>
   </section>
 
   <section class="it" id="it">
       <h2>it-школы</h2>
-      <div class="it__text">
+      <div class="section__text it__text">
         <p>Безусловно изучать любую науку самостоятельно не так эффективно, как по специально разработанной и проверенной временем программе, да еще и с подачи преподавателя котому всегда можно задать вопрос и получить квалифицированный ответ. В данной статье подобраны школы города Могилева, которые действительно стоят вашего внимания.</p>
         <div class="schools">
-          <label>
-            <div class="input">
-              <input type="checkbox"><span> It-школы Могилева</span>
-            </div>
-          </label>
           <ul class="list__of__schools">
-            <li><a href="https://melarossa.by/" target="_blank">"МЕЛА РОСА"</a></li>
-            <li><a href="https://mogilev.itstep.by/" target="_blank">"ШАГ"</a></li>
+            <li class="schools__link">
+              <input type="checkbox" class="modal__toggle" id="toggle__1" hidden>
+              <label class="modal__trigger" for="toggle__1">
+                <a class="section__link schools__name__link" href="https://melarossa.by/" target="_blank">"МЕЛА РОСА"</a>
+                  <img class="maps" src="img/maps.png" alt=""> 
+                  <p class="address"> пер. Пожарный, 9, 4 (мансардный) этаж. Вход - дверь между офисами Life и А1.</p>            
+              </label>
+              <div class="modal__target">
+                <img class="yandex__img" src="img/melarossa1.jpg" alt="">
+                <img class="yandex__img" src="img/melarossa2.jpg" alt="">
+                <img class="yandex__img" src="img/melarossa3.jpg" alt="">
+                <div class="yandex__maps" style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/org/mela_rossa/1093571409/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Мела Росса</a><a href="https://yandex.by/maps/158/mogilev/category/computer_courses/184106158/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Компьютерные курсы в Могилёве</a><a href="https://yandex.by/maps/158/mogilev/category/courses_and_master_classes/184106220/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Курсы и мастер-классы в Могилёве</a><iframe src="https://yandex.by/map-widget/v1/-/CCUrqPTKDD" width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+              </div>
+            </li>
+
+            <li class="schools__link">
+              <input type="checkbox" class="modal__toggle" id="toggle__2" hidden>
+              <label class="modal__trigger" for="toggle__2">
+                <a class="section__link schools__name__link" href="https://mogilev.itstep.by/" target="_blank">"ШАГ"</a>
+                  <img class="maps" src="img/maps.png" alt=""> 
+                  <p class="address">пер. Пожарный, д. 1а, 2-й этаж</p>            
+              </label>
+              <div class="modal__target">
+                <img class="yandex__img" src="img/step1.jpg" alt="">
+                <img class="yandex__img" src="img/step2.jpg" alt="">
+                <img class="yandex__img" src="img/step3.jpg" alt="">
+                <div class="yandex__maps" style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/158/mogilev/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Могилёв</a><a href="https://yandex.by/maps/158/mogilev/house/Z0kYdQRkT0EEQFtpfXR4eH9hbQ==/?from=mapframe&ll=30.334671%2C53.899344&source=mapframe&um=constructor%3A934b355f18fb32b88ccd65e28123d09c99ed19e039cfe9afec90f1d94bc112b7&utm_medium=mapframe&utm_source=maps&z=19.4" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.by/map-widget/v1/-/CCUrq-balC" width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div></div>
+            </li>
+
+            <li class="schools__link">
+              <input type="checkbox" class="modal__toggle" id="toggle__3" hidden>
+              <label class="modal__trigger" for="toggle__3">
+                <a class="section__link schools__name__link" href="https://verity.by" target="_blank">"VerITy"</a>
+                  <img class="maps" src="img/maps.png" alt=""> 
+                  <p class="address">ул. Чайковского, д. 11 (БЦ "БРИКС"), оф. 214</p>            
+              </label>
+              <div class="modal__target">
+                <img class="yandex__img" src="img/VerITy1.webp" alt="">
+                <img class="yandex__img" src="img/VerITy2.webp" alt="">
+                <img class="yandex__img" src="img/VerITy3.webp" alt="">
+                <div class="yandex__maps" style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/org/veriti/67718056798/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Вэрити</a><a href="https://yandex.by/maps/158/mogilev/category/computer_courses/184106158/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Компьютерные курсы в Могилёве</a><a href="https://yandex.by/maps/158/mogilev/category/courses_and_master_classes/184106220/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Курсы и мастер-классы в Могилёве</a><iframe src="https://yandex.by/map-widget/v1/-/CCUrqDtz3B" width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+              </div>
+            </li>
+
+            <li class="schools__link">
+              <input type="checkbox" class="modal__toggle" id="toggle__4" hidden>
+              <label class="modal__trigger" for="toggle__4">
+                <a class="section__link schools__name__link" href="https://itclass.by/mogilev/main" target="_blank">"IT class"</a>
+                  <img class="maps" src="img/maps.png" alt=""> 
+                  <p class="address">пр-т Мира, 73, третий этаж</p>            
+              </label>
+              <div class="modal__target">
+                <img class="yandex__img" src="img/it__class1.jpg" alt="">
+                <div class="yandex__maps" style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/158/mogilev/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Могилёв</a><a href="https://yandex.by/maps/158/mogilev/house/Z0kYdQBlQUIBQFtpfXVwdn1nZA==/?ll=30.375876%2C53.917141&utm_medium=mapframe&utm_source=maps&z=16.94" style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Мира, 73 — Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/-/CCUruAsGwA" width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div></div>
+            </li>
           </ul>
         </div>
       </div>
   </section>
 
-</div>
+  <section class="youtube" id="youtube">
+    <h2><img class="icon" src="img/youtube.png" alt=""> youtube</h2>
+    <div class="section__text youtube__text">
+      <p>Даже если вы найдете самые продвинутые курсы, Вам все равно не обойтись без самоподготовки. Вам в любом случае прийдется искать тех. документацию и читать... читать... читать... Но что действительно ускорит процесс обучения, так это - YouTube. Вы всегда поймете как решить ту или иную задачу посмотрев на практику как это делается. Ниже собраны ссылки на каналы для новичков.</p>
+      <dl class="list__of__youtube">
+        <dt>frontend</dt>
+          <dd>
+            <a class="youtube__link" href="https://www.youtube.com/@FreelancerLifeStyle" target="_blank">Фрилансер по жизни</a>
+          </dd>
+        <dt>backend</dt>
+          <dd>
+            <a class="youtube__link" href="https://www.youtube.com/@artemvorov" target="_blank">IT-kot</a>
+          </dd>
+          <dd>
+            <a class="youtube__link" href="https://www.youtube.com/@alishevN" target="_blank">Alishev</a>
+          </dd>
+      </dl>
+    </div>
+  </section>
   
+  <section class="footer">
+    <div class="section__text">
+      <p class="footer__text">Разработчик: Алексей Жуков </p>     
+      <p class="footer__text"> tel:
+        <a class="tel section__link" href="tel:+375292404044">+375292404044</a>
+      </p>
+    </div>
+  </section>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 </body>
 </html>
