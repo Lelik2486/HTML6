@@ -30,7 +30,7 @@ section{
   color:orange; 
   border-radius: 3px;
   padding: 3px 5px;
-  transition: 1s;
+  transition: 0.4s;
 }
 .section__link:hover{
   color: rgb(79, 121, 39);
